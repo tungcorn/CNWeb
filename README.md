@@ -64,6 +64,14 @@ Access the specific exercises via your browser using the following URL pattern:
 ## 📸 Highlights
 
 <details>
+<summary>Click to view Chapter 2 Demo</summary>
+
+> *Demo:*
+> ![Demo](./PHIEU_HOC_TAP/image/chuong2_demo.png)
+
+</details>
+
+<details>
 <summary>Click to view Chapter 3 Demo</summary>
 
 > *Login Form Interface:*
