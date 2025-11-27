@@ -1,8 +1,8 @@
 # 📘 Web Development Fundamentals - Learning Portfolio
 
-![Language](https://img. shields.io/badge/Language-PHP-777BB4? style=for-the-badge&logo=php&logoColor=white)
-![School](https://img. shields.io/badge/University-Thuy_Loi_University-blue?style=for-the-badge)
-![Status](https://img. shields.io/badge/Status-Active_Maintenance-success?style=for-the-badge)
+![Language](https://img.shields.io/badge/Language-PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![School](https://img.shields.io/badge/University-Thuy_Loi_University-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active_Maintenance-success?style=for-the-badge)
 
 ## 🎓 Student Information
 
