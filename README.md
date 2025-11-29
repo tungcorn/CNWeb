@@ -1,124 +1,134 @@
-# 📘 Web Development Fundamentals - Learning Portfolio
+# 📘 Báo Cáo Bài Tập - Môn Công Nghệ Web
 
 ![Language](https://img.shields.io/badge/Language-PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![School](https://img.shields.io/badge/University-Thuy_Loi_University-blue?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Active_Maintenance-success?style=for-the-badge)
 
-## 🎓 Student Information
+## 🎓 Thông Tin Sinh Viên
 
-* **Full Name:** Ngô Quang Tùng
-* **Student ID:** 2351170631
-* **Class:** 65KTPM
-* **Course:** Web Development Fundamentals (Công nghệ Web)
-* **Instructor:** MSc. Tạ Chí Hiếu
-
----
-
-## 📖 Introduction
-
-This repository serves as a digital portfolio for the **Web Development Fundamentals** course. It contains solutions to weekly "Learning Worksheets" (Phiếu học tập), practical exercises, classroom assignments, and projects demonstrating core web development concepts using PHP.
+| Thông tin | Chi tiết |
+|:---|:---|
+| **Họ và tên** | Ngô Quang Tùng |
+| **Mã sinh viên** | 2351170631 |
+| **Lớp** | 65KTPM |
+| **Môn học** | Công nghệ Web |
+| **Giảng viên** | ThS. Tạ Chí Hiếu |
 
 ---
 
-## 📂 Repository Structure
+## 📖 Giới Thiệu
+
+Repository này được sử dụng để lưu trữ và nộp các bài tập của môn **Công nghệ Web**. Bao gồm các Phiếu học tập (Learning Worksheets), bài tập thực hành trên lớp và các bài kiểm tra trong suốt quá trình học.
+
+---
+
+## 📂 Cấu Trúc Thư Mục
 
 ```
 CNWeb/
-├── PHIEU_HOC_TAP/          # Phiếu học tập (Learning Worksheets)
-│   ├── pht_chuong1.pdf     # Chương 1: Web Overview
-│   ├── pht_chuong2/        # Chương 2: PHP Basics
-│   ├── pht_chuong3/        # Chương 3: Dynamic Web Pages
-│   ├── pht_chuong4/        # Chương 4: Database Integration
-│   └── image/              # Demo screenshots
-├── BT_LOP/                 # Bài tập trên lớp (Classroom Exercises)
-│   └── test_gia_lap_csdl/  # Test giả lập CSDL
+├── PHIEU_HOC_TAP/          # Phiếu học tập
+│   ├── pht_chuong1. pdf     # Chương 1: Tổng quan Web
+│   ├── pht_chuong2/        # Chương 2: Cơ bản PHP
+│   ├── pht_chuong3/        # Chương 3: Trang Web động
+│   ├── pht_chuong4/        # Chương 4: Tích hợp CSDL
+│   └── image/              # Ảnh minh họa
+├── BT_LOP/                 # Bài tập trên lớp
+│   └── test_gia_lap_csdl/  # Bài kiểm tra giả lập CSDL
 └── README.md
 ```
 
 ---
 
-## 📂 Course Progression & Content
+## 📚 Nội Dung Bài Tập Theo Chương
 
-Below is the list of covered topics organized by chapters. 
-
-| Chapter | Topic | Key Concepts | Status |
-| :--- | :--- | :--- | :--- |
-| **Chapter 1** | **Web Overview** | Client-Server Model, HTTP Protocol, Web Server setup (XAMPP/Laragon).  | ✅ Completed |
-| **Chapter 2** | **PHP Basics** | Syntax, Variables, Data Types, Arrays, Control Structures, Functions.  | ✅ Completed |
-| **Chapter 3** | **Dynamic Web Pages** | Form Handling (`$_POST`/`$_GET`), State Management (`$_SESSION`, Cookies).  | ✅ Completed |
-| **Chapter 4** | **Database Integration** | MySQL, PDO, CRUD Operations, Database Connection.  | ✅ Completed |
+| Chương | Chủ đề | Nội dung chính | Trạng thái |
+|:---|:---|:---|:---|
+| **Chương 1** | Tổng quan Web | Mô hình Client-Server, Giao thức HTTP, Cài đặt Web Server (XAMPP/Laragon) | ✅ Hoàn thành |
+| **Chương 2** | Cơ bản PHP | Cú pháp, Biến, Kiểu dữ liệu, Mảng, Cấu trúc điều khiển, Hàm | ✅ Hoàn thành |
+| **Chương 3** | Trang Web động | Xử lý Form (`$_POST`/`$_GET`), Quản lý trạng thái (`$_SESSION`, Cookies) | ✅ Hoàn thành |
+| **Chương 4** | Tích hợp CSDL | MySQL, PDO, Thao tác CRUD, Kết nối Database | ✅ Hoàn thành |
 
 ---
 
-## 📚 Additional Resources
+## 🏫 Bài Tập Trên Lớp
 
-### 🏫 Bài tập trên lớp (Classroom Exercises)
-
-| Folder | Description |
-| :--- | :--- |
-| `test_gia_lap_csdl` | Bài tập test giả lập cơ sở dữ liệu |
+| Thư mục | Mô tả |
+|:---|:---|
+| `test_gia_lap_csdl` | Bài kiểm tra giả lập cơ sở dữ liệu |
 
 ---
 
-## 🛠️ Installation & Setup
+## 🛠️ Hướng Dẫn Cài Đặt
 
-Since this is a PHP-based repository, you need a local server environment to run the code. 
+1. **Clone Repository:**
+   ```bash
+   git clone https://github.com/TungCorn/CNWeb.git
+   ```
 
-1.   **Clone the Repository:**
-    ```bash
-    git clone https://github.com/TungCorn/CNWeb.git
-    ```
-2.  **Move to Server Directory:**
-    * Copy the cloned folder into your server's root directory. 
-    * **XAMPP:** `C:\xampp\htdocs\`
-    * **Laragon:** `C:\laragon\www\`
-3.   **Start Server:**
-    * Open XAMPP/Laragon Control Panel and start **Apache**. 
-    * Start **MySQL** for database-related exercises (Chapter 4+).
+2. **Di chuyển vào thư mục Server:**
+    - **XAMPP:** `C:\xampp\htdocs\`
+    - **Laragon:** `C:\laragon\www\`
 
----
-
-## 🚀 How to Navigate
-
-Access the specific exercises via your browser using the following URL pattern:
-
-`http://localhost/CNWeb/[Folder]/[filename. php]`
-
-**Examples:**
-* **Phiếu học tập Chương 2:** `http://localhost/CNWeb/PHIEU_HOC_TAP/pht_chuong2/index.php`
-* **Phiếu học tập Chương 3:** `http://localhost/CNWeb/PHIEU_HOC_TAP/pht_chuong3/login.html`
-* **Phiếu học tập Chương 4:** `http://localhost/CNWeb/PHIEU_HOC_TAP/pht_chuong4/index. php`
-* **Bài tập lớp:** `http://localhost/CNWeb/BT_LOP/test_gia_lap_csdl/index.php`
+3.  **Khởi động Server:**
+- Mở XAMPP/Laragon Control Panel
+- Khởi động **Apache**
+- Khởi động **MySQL** (cho các bài tập Chương 4)
 
 ---
 
-## 📸 Highlights
+## 🚀 Hướng Dẫn Truy Cập
+
+Truy cập các bài tập qua trình duyệt với đường dẫn:
+
+`http://localhost/CNWeb/[Thư_mục]/[tên_file.php]`
+
+**Ví dụ:**
+- **Phiếu học tập Chương 2:** `http://localhost/CNWeb/PHIEU_HOC_TAP/pht_chuong2/index.php`
+- **Phiếu học tập Chương 3:** `http://localhost/CNWeb/PHIEU_HOC_TAP/pht_chuong3/login.html`
+- **Phiếu học tập Chương 4:** `http://localhost/CNWeb/PHIEU_HOC_TAP/pht_chuong4/index.php`
+- **Bài tập lớp:** `http://localhost/CNWeb/BT_LOP/test_gia_lap_csdl/index.php`
+
+---
+
+## 📸 Hình Ảnh Minh Họa
 
 <details>
-<summary>Click to view Chapter 2 Demo</summary>
+<summary>📌 Demo Chương 2</summary>
 
-> *Demo:*
-> ![Demo](./PHIEU_HOC_TAP/image/chuong2_demo. png)
+> **Demo:**
+> ![Demo](./PHIEU_HOC_TAP/image/chuong2_demo.png)
 
 </details>
 
 <details>
-<summary>Click to view Chapter 3 Demo</summary>
+<summary>📌 Demo Chương 3</summary>
 
-> *Login Form Interface:*
+> **Giao diện Form Đăng nhập:**
 > ![Login Form](./PHIEU_HOC_TAP/image/login_form.png)
 >
-> *Welcome Page (Session Active):*
+> **Trang Chào mừng (Session Active):**
 > ![Welcome Page](./PHIEU_HOC_TAP/image/welcome_form.png)
 
 </details>
 
+<details>
+<summary>📌 Demo Chương 4</summary>
+
+> **Form:**
+> ![Form](./PHIEU_HOC_TAP/image/demo-giao-dien.png)
+>
+> **CSDL:**
+> ![CSDL](./PHIEU_HOC_TAP/image/demo-csdl.png)
+
+</details>
+
 ---
 
-## 📝 Acknowledgments
+## 📝 Lời Cảm Ơn
 
-* Material and exercises provided by **Thuy Loi University**. 
-* Guidance by Instructor **Tạ Chí Hiếu**. 
+- Tài liệu và bài tập được cung cấp bởi **Trường Đại học Thủy Lợi**
+- Hướng dẫn bởi giảng viên **ThS. Tạ Chí Hiếu**
 
 ---
-*Repository maintained by Ngô Quang Tùng.*
+
+*Repository được duy trì bởi Ngô Quang Tùng - MSSV: 2351170631*
