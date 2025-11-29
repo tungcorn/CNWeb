@@ -14,12 +14,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['csv_file'])) {
             $conn->beginTransaction();
 
             $handle = fopen($file['tmp_name'], 'r');
-            $header = fgetcsv($handle, 1000, ','); // Bỏ qua dòng tiêu đề
+            $header = fgetcsv($handle, 1000, ',', '"', ''); // Bỏ qua dòng tiêu đề
 
             $stmt = $conn->prepare("INSERT INTO students (username, password, lastname, firstname, city, email, course) VALUES (?, ?, ?, ?, ?, ?, ?)");
 
             $count = 0;
-            while (($data = fgetcsv($handle, 1000, ',')) !== FALSE) {
+            while (($data = fgetcsv($handle, 1000, ',', '"', '')) !== FALSE) {
                 if (count($data) >= 7) {
                     $stmt->execute([
                         $data[0], // username
