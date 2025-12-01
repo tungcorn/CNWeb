@@ -135,7 +135,7 @@ Truy cập các bài tập qua trình duyệt với đường dẫn:
 <summary>📌 Demo Chương 5</summary>
 
 > **Quản lý Sinh viên (MVC):**
-> ![MVC Demo](./PHIEU_HOC_TAP/image/chuong5_demo.png)
+> ![MVC Demo](./PHIEU_HOC_TAP/image/chuong5_form.png)
 
 </details>
 
