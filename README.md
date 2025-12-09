@@ -26,21 +26,39 @@ Repository này được sử dụng để lưu trữ và nộp các bài tập 
 
 ```
 CNWeb/
-├── PHIEU_HOC_TAP/          # Phiếu học tập
-│   ├── pht_chuong1.pdf     # Chương 1: Tổng quan Web
-│   ├── pht_chuong2/        # Chương 2: Cơ bản PHP
-│   ├── pht_chuong3/        # Chương 3: Trang Web động
-│   ├── pht_chuong4/        # Chương 4: Tích hợp CSDL
-│   ├── pht_chuong5/        # Chương 5: Mô hình MVC
-│   │   └── code/
-│   │       ├── index.php
-│   │       ├── models/
-│   │       │   └── SinhVienModel.php
-│   │       └── views/
-│   │           └── sinhvien_view.php
-│   └── image/              # Ảnh minh họa
-├── BT_LOP/                 # Bài tập trên lớp
-│   └── test_gia_lap_csdl/  # Bài kiểm tra giả lập CSDL
+├── PHIEU_HOC_TAP/              # Phiếu học tập
+│   ├── pht_chuong1.pdf         # Chương 1: Tổng quan Web
+│   ├── pht_chuong2/            # Chương 2: Cơ bản PHP
+│   ├── pht_chuong3/            # Chương 3: Trang Web động
+│   ├── pht_chuong4/            # Chương 4: Tích hợp CSDL
+│   ├── pht_chuong5/            # Chương 5: Mô hình MVC
+│   └── image/                  # Ảnh minh họa
+│
+├── BT_LOP/                     # Bài tập trên lớp
+│   └── test_gia_lap_csdl/      # Bài kiểm tra giả lập CSDL
+│
+├── ThucHanh/                   # 📌 Bài thực hành trên lớp
+│   ├── BTTH_1/                 # Thực hành 1: Cơ bản PHP
+│   │   ├── B1/                 # Bài 1
+│   │   ├── B2/                 # Bài 2
+│   │   ├── B3/                 # Bài 3
+│   │   └── B4/                 # Bài 4: Dự án hoàn chỉnh
+│   │
+│   ├── BTTH_2_Nhom/            # 🎓 Thực hành 2 (Nhóm): Hệ thống Quản lý Khóa học Online
+│   │   ├── controllers/        # Controllers (MVC)
+│   │   ├── models/             # Models (User, Course, Lesson, Enrollment...)
+│   │   ├── views/              # Views (Blade-like templates)
+│   │   ├── viewmodels/         # ViewModels (Validation, Data binding)
+│   │   ├── lib/                # Thư viện tiện ích (Router, Database, Auth...)
+│   │   ├── config/             # Cấu hình Database, App
+│   │   └── assets/             # CSS, JS, Uploads
+│   │
+│   └── BTTH_3/                 # 🚀 Thực hành 3: Laravel Framework
+│       └── PRAC_01/            # Hệ thống quản lý Thuốc (Medicine)
+│           ├── Models/         # Eloquent Models
+│           ├── migrations/     # Database Migrations
+│           └── seeders/        # Database Seeders
+│
 └── README.md
 ```
 
@@ -66,7 +84,75 @@ CNWeb/
 
 ---
 
-## 🛠️ Hướng Dẫn Cài Đặt
+## � Bài Thực Hành
+
+### 📘 BTTH_1 - Thực hành PHP Cơ bản
+Bài tập thực hành các kiến thức nền tảng của PHP.
+
+| Bài | Nội dung |
+|:---|:---|
+| **B1** | PHP cơ bản |
+| **B2** | Xử lý form |
+| **B3** | Mảng và vòng lặp |
+| **B4** | Dự án tổng hợp |
+
+---
+
+### 🎓 BTTH_2_Nhom - Hệ thống Quản lý Khóa học Online
+> **Bài tập nhóm:** Xây dựng hệ thống LMS (Learning Management System) hoàn chỉnh.
+
+**🛠️ Công nghệ sử dụng:**
+- PHP thuần (MVC Pattern)
+- MySQL Database
+- Bootstrap 5 + CSS3
+- JavaScript
+
+**📋 Các module chính:**
+
+| Module | Chức năng |
+|:---|:---|
+| **Auth** | Đăng ký, Đăng nhập, Đăng xuất, Quản lý Session |
+| **Course** | Xem danh sách khóa học, Chi tiết, Tìm kiếm |
+| **Student** | Dashboard, Ghi danh, Tiến độ học tập, Xem bài giảng |
+| **Instructor** | Quản lý khóa học, Bài học, Tài liệu, Danh sách học viên |
+| **Admin** | Quản lý Users, Categories, Duyệt khóa học, Thống kê |
+
+**🏗️ Kiến trúc:**
+- **Controllers:** Xử lý logic và điều hướng request
+- **Models:** Tương tác Database (PDO)
+- **ViewModels:** Validation attributes, Data binding
+- **Views:** Templates với Bootstrap
+- **Router:** Routing URL pattern matching
+
+---
+
+### 🚀 BTTH_3 - Laravel Framework
+> **Thực hành với Laravel:** Sử dụng Eloquent ORM để quản lý database.
+
+**📦 PRAC_01 - Quản lý Thuốc (Pharmacy System)**
+
+| Thành phần | Mô tả |
+|:---|:---|
+| **Models** | `Medicine`, `Sale` - Eloquent Models |
+| **Migrations** | Định nghĩa schema: `medicines`, `sales` tables |
+| **Seeders** | Dữ liệu mẫu cho testing |
+
+**Database Schema:**
+```php
+// medicines table
+- medicine_id (PK)
+- name, brand, dosage, form
+- price, stock
+
+// sales table  
+- sale_id (PK)
+- medicine_id (FK)
+- quantity, sale_date, total_amount
+```
+
+---
+
+## �🛠️ Hướng Dẫn Cài Đặt
 
 1. **Clone Repository:**
    ```bash
@@ -91,11 +177,24 @@ Truy cập các bài tập qua trình duyệt với đường dẫn:
 `http://localhost/CNWeb/[Thư_mục]/[tên_file.php]`
 
 **Ví dụ:**
-- **Phiếu học tập Chương 2:** `http://localhost/CNWeb/PHIEU_HOC_TAP/pht_chuong2/index.php`
-- **Phiếu học tập Chương 3:** `http://localhost/CNWeb/PHIEU_HOC_TAP/pht_chuong3/login.html`
-- **Phiếu học tập Chương 4:** `http://localhost/CNWeb/PHIEU_HOC_TAP/pht_chuong4/index.php`
-- **Phiếu học tập Chương 5:** `http://localhost/CNWeb/PHIEU_HOC_TAP/pht_chuong5/code/index.php`
-- **Bài tập lớp:** `http://localhost/CNWeb/BT_LOP/test_gia_lap_csdl/index.php`
+
+📚 **Phiếu học tập:**
+- **Chương 2:** `http://localhost/CNWeb/PHIEU_HOC_TAP/pht_chuong2/index.php`
+- **Chương 3:** `http://localhost/CNWeb/PHIEU_HOC_TAP/pht_chuong3/login.html`
+- **Chương 4:** `http://localhost/CNWeb/PHIEU_HOC_TAP/pht_chuong4/index.php`
+- **Chương 5:** `http://localhost/CNWeb/PHIEU_HOC_TAP/pht_chuong5/code/index.php`
+
+📝 **Bài tập lớp:**
+- **Test CSDL:** `http://localhost/CNWeb/BT_LOP/test_gia_lap_csdl/index.php`
+
+💻 **Bài thực hành:**
+- **BTTH_1:** `http://localhost/CNWeb/ThucHanh/BTTH_1/B1/index.php`
+- **BTTH_2 (LMS):** `http://localhost/CNWeb/ThucHanh/BTTH_2_Nhom/`
+  - Trang chủ: `/home`
+  - Đăng nhập: `/auth/login`
+  - Khóa học: `/courses`
+  - Dashboard Instructor: `/instructor/dashboard`
+  - Dashboard Admin: `/admin/dashboard`
 
 ---
 
