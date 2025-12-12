@@ -41,10 +41,6 @@ CNWeb/
 │
 ├── ThucHanh/                   # 📌 Bài thực hành trên lớp
 │   ├── BTTH_1/                 # Thực hành 1: Cơ bản PHP
-│   │   ├── B1/                 # Bài 1
-│   │   ├── B2/                 # Bài 2
-│   │   ├── B3/                 # Bài 3
-│   │   └── B4/                 # Bài 4: Dự án hoàn chỉnh
 │   │
 │   ├── BTTH_2_Nhom/            # 🎓 Thực hành 2 (Nhóm): Hệ thống Quản lý Khóa học Online
 │   │
