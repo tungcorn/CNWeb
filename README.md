@@ -33,6 +33,7 @@ CNWeb/
 │   ├── pht_chuong4/            # Chương 4: Tích hợp CSDL
 │   ├── pht_chuong5/            # Chương 5: Mô hình MVC
 │   ├── pht_chuong6/            # Chương 6: Laravel Framework
+│   ├── pht_chuong7/            # Chương 7: Laravel Blade & Layout
 │   └── image/                  # Ảnh minh họa
 │
 ├── BT_LOP/                     # Bài tập trên lớp
@@ -65,6 +66,7 @@ CNWeb/
 | **Chương 4** | Tích hợp CSDL | MySQL, PDO, Thao tác CRUD, Kết nối Database | ✅ Hoàn thành |
 | **Chương 5** | Mô hình MVC | Model-View-Controller, Tách biệt logic, Quản lý Sinh viên | ✅ Hoàn thành |
 | **Chương 6** | Laravel Framework | Cài đặt Laravel, Routing, Controllers | ✅ Hoàn thành |
+| **Chương 7** | Laravel Framework | Blade Templates, Layouts, Views | ✅ Hoàn thành |
 
 ---
 
@@ -177,6 +179,7 @@ Truy cập các bài tập qua trình duyệt với đường dẫn:
 - **Chương 4:** `http://localhost/CNWeb/PHIEU_HOC_TAP/pht_chuong4/index.php`
 - **Chương 5:** `http://localhost/CNWeb/PHIEU_HOC_TAP/pht_chuong5/code/index.php`
 - **Chương 6:** `http://localhost/CNWeb/PHIEU_HOC_TAP/pht_chuong6/code/web.php`
+- **Chương 7:** `http://localhost/CNWeb/PHIEU_HOC_TAP/pht_chuong7/code/homepage.blade.php`
 
 📝 **Bài tập lớp:**
 - **Test CSDL:** `http://localhost/CNWeb/BT_LOP/test_gia_lap_csdl/index.php`
@@ -238,6 +241,14 @@ Truy cập các bài tập qua trình duyệt với đường dẫn:
 
 > **GIỚI THIỆU VỀ LARAVEL:**
 > ![Laravel](./PHIEU_HOC_TAP/image/chuong6.png)
+
+</details>
+
+<details>
+<summary>📌 Demo Chương 7</summary>
+
+> **Laravel Blade Views:**
+> ![Blade Layout](./PHIEU_HOC_TAP/image/chuong7.png)
 
 </details>
 
