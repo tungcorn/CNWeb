@@ -34,6 +34,7 @@ CNWeb/
 │   ├── pht_chuong5/            # Chương 5: Mô hình MVC
 │   ├── pht_chuong6/            # Chương 6: Laravel Framework
 │   ├── pht_chuong7/            # Chương 7: Laravel Blade & Layout
+│   ├── pht_chuong8/            # Chương 8: Laravel Model & Migration
 │   └── image/                  # Ảnh minh họa
 │
 ├── BT_LOP/                     # Bài tập trên lớp
@@ -67,6 +68,7 @@ CNWeb/
 | **Chương 5** | Mô hình MVC | Model-View-Controller, Tách biệt logic, Quản lý Sinh viên | ✅ Hoàn thành |
 | **Chương 6** | Laravel Framework | Cài đặt Laravel, Routing, Controllers | ✅ Hoàn thành |
 | **Chương 7** | Laravel Framework | Blade Templates, Layouts, Views | ✅ Hoàn thành |
+| **Chương 8** | Laravel Framework | Eloquent ORM, Migrations, CRUD | ✅ Hoàn thành |
 
 ---
 
@@ -180,6 +182,7 @@ Truy cập các bài tập qua trình duyệt với đường dẫn:
 - **Chương 5:** `http://localhost/CNWeb/PHIEU_HOC_TAP/pht_chuong5/code/index.php`
 - **Chương 6:** `http://localhost/CNWeb/PHIEU_HOC_TAP/pht_chuong6/code/web.php`
 - **Chương 7:** `http://localhost/CNWeb/PHIEU_HOC_TAP/pht_chuong7/code/homepage.blade.php`
+- **Chương 8:** `http://localhost/CNWeb/PHIEU_HOC_TAP/pht_chuong8/code/web.php`
 
 📝 **Bài tập lớp:**
 - **Test CSDL:** `http://localhost/CNWeb/BT_LOP/test_gia_lap_csdl/index.php`
@@ -249,6 +252,17 @@ Truy cập các bài tập qua trình duyệt với đường dẫn:
 
 > **Laravel Blade Views:**
 > ![Blade Layout](./PHIEU_HOC_TAP/image/chuong7.png)
+
+</details>
+
+<details>
+<summary>📌 Demo Chương 8</summary>
+
+> **Data:**
+> ![Data](./PHIEU_HOC_TAP/image/chuong8_data.png)
+>
+> **Form Thêm mới:**
+> ![Create](./PHIEU_HOC_TAP/image/chuong8_form.png)
 
 </details>
 
