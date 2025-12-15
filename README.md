@@ -265,4 +265,4 @@ Truy cập các bài tập qua trình duyệt với đường dẫn:
 
 ---
 
-*Repository được duy trì bởi Ngô Quang Tùng - MSSV: 2351170631*
+*Repository được duy trì bởi Ngô Quang Tùng*
