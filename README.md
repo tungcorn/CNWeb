@@ -25,6 +25,7 @@ CNWeb/
 │   ├── pht_chuong6/            # Chương 6: Laravel Framework
 │   ├── pht_chuong7/            # Chương 7: Laravel Blade & Layout
 │   ├── pht_chuong8/            # Chương 8: Laravel Model & Migration
+│   ├── pht_chuong9/            # Chương 9: Bảo mật Web
 │   └── image/                  # Ảnh minh họa
 │
 ├── BT_LOP/                     # Bài tập trên lớp
@@ -59,6 +60,7 @@ CNWeb/
 | **Chương 6** | Laravel Framework | Cài đặt Laravel, Routing, Controllers | ✅ Hoàn thành |
 | **Chương 7** | Laravel Framework | Blade Templates, Layouts, Views | ✅ Hoàn thành |
 | **Chương 8** | Laravel Framework | Eloquent ORM, Migrations, CRUD | ✅ Hoàn thành |
+| **Chương 9** | Bảo mật Web | CSRF Protection, XSS Prevention | ✅ Hoàn thành |
 
 ---
 
@@ -173,6 +175,7 @@ Truy cập các bài tập qua trình duyệt với đường dẫn:
 - **Chương 6:** `http://localhost/CNWeb/PHIEU_HOC_TAP/pht_chuong6/code/web.php`
 - **Chương 7:** `http://localhost/CNWeb/PHIEU_HOC_TAP/pht_chuong7/code/homepage.blade.php`
 - **Chương 8:** `http://localhost/CNWeb/PHIEU_HOC_TAP/pht_chuong8/code/web.php`
+- **Chương 9:** `http://localhost/CNWeb/PHIEU_HOC_TAP/pht_chuong9/code/list.blade.php`
 
 📝 **Bài tập lớp:**
 - **Test CSDL:** `http://localhost/CNWeb/BT_LOP/test_gia_lap_csdl/index.php`
@@ -253,6 +256,17 @@ Truy cập các bài tập qua trình duyệt với đường dẫn:
 >
 > **Form Thêm mới:**
 > ![Create](./PHIEU_HOC_TAP/image/chuong8_form.png)
+
+</details>
+
+<details>
+<summary>📌 Demo Chương 9</summary>
+
+> **CSRF Protection:**
+> ![CSRF](./PHIEU_HOC_TAP/image/chuong9_csrf.png)
+>
+> **XSS Prevention:**
+> ![XSS](./PHIEU_HOC_TAP/image/chuong9_xss.png)
 
 </details>
 
