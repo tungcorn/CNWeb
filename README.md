@@ -4,16 +4,6 @@
 ![School](https://img.shields.io/badge/University-Thuy_Loi_University-blue?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Active_Maintenance-success?style=for-the-badge)
 
-## 🎓 Thông Tin Sinh Viên
-
-| Thông tin | Chi tiết |
-|:---|:---|
-| **Họ và tên** | Ngô Quang Tùng |
-| **Mã sinh viên** | 2351170631 |
-| **Lớp** | 65KTPM |
-| **Môn học** | Công nghệ Web |
-| **Giảng viên** | ThS. Tạ Chí Hiếu |
-
 ---
 
 ## 📖 Giới Thiệu
@@ -275,4 +265,4 @@ Truy cập các bài tập qua trình duyệt với đường dẫn:
 
 ---
 
-*Repository được duy trì bởi Ngô Quang Tùng - MSSV: 2351170631*
+*Repository được duy trì bởi Ngô Quang Tùng*
