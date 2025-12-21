@@ -38,11 +38,11 @@ CNWeb/
 │   ├── BTTH_2_Nhom/            # 🎓 Thực hành 2 (Nhóm): Hệ thống Quản lý Khóa học Online
 │   │
 │   └── BTTH_3/                 # 🚀 Thực hành 3: Laravel Framework
-│       └── PRAC_01/            # Hệ thống quản lý Thuốc (Medicine)
-│           ├── Models/         # Eloquent Models
-│           ├── migrations/     # Database Migrations
-│           └── seeders/        # Database Seeders
-│
+│   │    └── PRAC_01/            # Hệ thống quản lý Thuốc (Medicine)
+│   │        ├── Models/         # Eloquent Models
+│   │        ├── migrations/     # Database Migrations
+│   │        └── seeders/        # Database Seeders
+│   │
 │   └── BTTH_4/                 # 🛠️ Thực hành 4: Laravel Framework
 │       └── Computer-Issues/    # Hệ thống quản lý Vấn đề Phòng máy
 │
