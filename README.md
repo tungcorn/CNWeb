@@ -43,6 +43,9 @@ CNWeb/
 │           ├── migrations/     # Database Migrations
 │           └── seeders/        # Database Seeders
 │
+│   └── BTTH_4/                 # 🛠️ Thực hành 4: Laravel Framework
+│       └── Computer-Issues/    # Hệ thống quản lý Vấn đề Phòng máy
+│
 └── README.md
 ```
 
@@ -133,10 +136,37 @@ Bài tập thực hành các kiến thức nền tảng của PHP.
 - name, brand, dosage, form
 - price, stock
 
-// sales table  
 - sale_id (PK)
 - medicine_id (FK)
 - quantity, sale_date, total_amount
+```
+
+---
+
+### 🛠️ BTTH_4 - Laravel Framework (Tiếp theo)
+> **Thực hành với Laravel:** Xây dựng hệ thống quản lý sự cố máy tính.
+
+**💻 Computer Issues Management System**
+
+| Thành phần | Mô tả |
+|:---|:---|
+| **Models** | `Computer`, `Issue` - Quan hệ 1-n (Một máy tính có nhiều sự cố) |
+| **Migrations** | Tạo bảng `computers` và `issues` |
+| **Controllers** | `IssueController` - Quản lý CRUD cho các sự cố báo cáo |
+
+**Database Schema:**
+```php
+// computers table
+- id (PK)
+- computer_name, model, operating_system
+- processor, memory, available (boolean)
+
+// issues table
+- id (PK)
+- computer_id (FK)
+- reported_by, reported_date
+- description, urgency (Low/Medium/High)
+- status (Open/In Progress/Resolved)
 ```
 
 ---
@@ -183,6 +213,8 @@ Truy cập các bài tập qua trình duyệt với đường dẫn:
 
 💻 **Bài thực hành:**
 - **BTTH_1:** `http://localhost/CNWeb/ThucHanh/BTTH_1/B1/index.php`
+- **BTTH_3 (Medicines):** `http://localhost/CNWeb/ThucHanh/BTTH_3/PRAC_01/public/`
+- **BTTH_4 (Issues):** `http://localhost/CNWeb/ThucHanh/BTTH_4/public/issues`
 - **BTTH_2 (LMS):** `http://localhost/CNWeb/ThucHanh/BTTH_2_Nhom/`
   - Trang chủ: `/home`
   - Đăng nhập: `/auth/login`
