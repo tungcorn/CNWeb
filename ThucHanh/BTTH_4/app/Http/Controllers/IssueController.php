@@ -100,4 +100,18 @@ class IssueController extends Controller
 
         return redirect()->route('issues.index')->with('success', 'Deleted successfully!');
     }
+
+    public function search(Request $request)
+    {
+        $query = $request->input('query');
+        $items = Issue::whereHas('computer', function ($q) use ($query) {
+            $q->where('computer_name', 'like', '%' . $query . '%');
+        })
+            ->with('computer')
+            ->orderBy('issues.id', 'desc')
+            ->paginate(10)
+            ->withQueryString();
+
+        return view('issues.index', compact('items'));
+    }
 }

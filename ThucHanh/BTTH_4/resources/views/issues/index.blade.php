@@ -5,7 +5,14 @@
 @section('content')
     <div class="d-flex justify-content-between align-items-center mb-3">
         <h2>List Items</h2>
-        <a href="{{ route('issues.create') }}" class="btn btn-primary">Add New</a>
+        <div class="d-flex gap-2">
+            <form action="{{ route('issues.search') }}" method="GET" class="d-flex">
+                <input type="text" name="query" class="form-control me-2" placeholder="Search..." value="{{ request('query') }}">
+                <button type="submit" class="btn btn-outline-success">Search</button>
+            </form>
+            <a href="{{ route('issues.create') }}" class="btn btn-primary">Add New</a>
+        </div>
+
     </div>
 
 {{--    @if(session('success'))--}}
