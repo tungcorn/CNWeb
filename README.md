@@ -175,7 +175,7 @@ Bài tập thực hành các kiến thức nền tảng của PHP.
 
 1. **Clone Repository:**
    ```bash
-   git clone https://github.com/TungCorn/CNWeb.git
+   git clone https://github.com/tungcorn/CNWeb.git
    ```
 
 2. **Di chuyển vào thư mục Server:**
